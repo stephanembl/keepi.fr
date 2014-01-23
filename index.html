@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable = no" />
+	<title>KeePi - Keep track of your Epitech classmates all over the world</title>
+	<link rel="icon" href="keepi.ico" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/grid.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="assets/jquery-jvectormap.css" media="all" />
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="js/jquery-ui-1.10.1.custom.min.js"></script>
+	<script type="text/javascript" src="js/slider/jquery.flexslider-min.js"></script>
+	<script type="text/javascript" src="js/slider/functions.js"></script>
+	<script type="text/javascript" src="js/slider/script.js"></script>
+	<script type="text/javascript" src="js/radio.js"></script>
+	<script type="text/javascript" src="js/js.js"></script>
+	<script type="text/javascript" src="js/jquery.stellar.min.js"></script>
+	<script type="text/javascript" src="js/waypoints.min.js"></script>
+	<script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+	<script type="text/javascript" src="assets/jquery-jvectormap.js"></script>
+	<script type="text/javascript" src="assets/jquery-mousewheel.js"></script>
+	<script type="text/javascript" src="lib/jvectormap.js"></script>
+	<script type="text/javascript" src="lib/abstract-element.js"></script>
+	<script type="text/javascript" src="lib/abstract-canvas-element.js"></script>
+	<script type="text/javascript" src="lib/abstract-shape-element.js"></script>
+	<script type="text/javascript" src="lib/svg-element.js"></script>
+	<script type="text/javascript" src="lib/svg-group-element.js"></script>
+	<script type="text/javascript" src="lib/svg-canvas-element.js"></script>
+	<script type="text/javascript" src="lib/svg-shape-element.js"></script>
+	<script type="text/javascript" src="lib/svg-path-element.js"></script>
+	<script type="text/javascript" src="lib/svg-circle-element.js"></script>
+	<script type="text/javascript" src="lib/vector-canvas.js"></script>
+	<script type="text/javascript" src="lib/simple-scale.js"></script>
+	<script type="text/javascript" src="lib/ordinal-scale.js"></script>
+	<script type="text/javascript" src="lib/numeric-scale.js"></script>
+	<script type="text/javascript" src="lib/color-scale.js"></script>
+	<script type="text/javascript" src="lib/data-series.js"></script>
+	<script type="text/javascript" src="lib/proj.js"></script>
+	<script type="text/javascript" src="lib/world-map.js"></script>
+	<script type="text/javascript" src="assets/jquery-jvectormap-world-mill-en.js"></script>
+	<script type="text/javascript" src="assets/jquery.filter_input.js"></script>
+	<script type="text/javascript" src="assets/init.js"></script>
+	<!--[if lt IE 9]>
+		<script type="text/javascript" src="js/html5shiv.js"></script>
+		<script type="text/javascript" src="js/respond.src.js"></script>
+	<![endif]-->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	  
+	  ga('create', 'UA-9573634-9', 'keepi.fr');
+	  ga('send', 'pageview');
+	</script>
+</head>
+<body>
+<div class="menu">	
+	<div class="container clearfix">
+		<div id="logo" class="fleft">
+			<a href="./"><img src="images/logo.png" /></a>
+		</div>
+		<div id="nav" class="fright">
+			<ul class="navigation">
+				<li data-slide="1">Home</li>
+				<li data-slide="8">Map</li>
+				<li data-slide="3">About</li>
+				<li data-slide="3">Join the Beta</li>
+				<div class="clear"></div>
+			</ul>
+		</div>
+	
+	</div>
+</div>
+<div class="slide" id="slide1" data-slide="1" data-stellar-background-ratio="0.5">
+	<div class="padding_slide1">
+		<div class="container clearfix">
+			<div id="content" class="grid_12">
+				<div class="filtr_bg">
+					<h1 class="taleft">KEEP TRACK OF YOUR EPITECH CLASSMATE, FRIEND OR RELATIVE'S LIFE ABROAD</h1>
+					<h1 class="taright">SHARE YOUR 4TH YEAR EXPERIENCE ABROAD WITH YOUR FRIENDS AND FAMILY</h1>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+</div>
+<div class="slide" id="slide8" data-slide="8" data-stellar-background-ratio="0.5">
+	<div class="effect_2 padding_slide8">
+		<div class="container clearfix">
+			<div id="content" style="height: 600px;">
+				<div class="map" style="width: 100%; height: 100%; margin: 0 auto; padding: 20px 0;"></div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="slide" id="slide3" data-slide="3" data-stellar-background-ratio="0.5">
+		<div class="container clearfix">
+		<img class="icon_img" src="images/globe-icon.png" />
+		<h4>About KeePi</h4>
+		<div id="content" class="grid_12">
+			<p>Every Epitech fourth-year student has to go study abroad for a year.<p>
+			<p>KeePi is a new blogging platform designed to gather Epitech's fourth-year students all over the world.</p>
+			<p>The main goals are to:
+			<ul>
+				<li>Help classmates stay easily in touch no matter the distance</li>
+				<li>Share this once-in-a-lifetime experience with friends and family via a complete set of tools</li>
+				<li>Give future fourth-year students an insight of their future destination</li>
+			</ul>
+			KeePi is a work in progress and is not opened to public yet.</p>
+			<p>You want to be updated and maybe get early access to KeePi's beta? Enter your email:</p>
+			<form class="form-wrapper cf" id="registerBeta" action="req/registerBeta.php" method="post">
+				<input type="text" id="email" name="email" placeholder="login" maxlength="8" required>
+				<div class="domain">@epitech.eu</div>
+				<button type="submit">Register!</button>
+			</form>
+			<p class="success"></p>
+		</div>
+	</div>
+</div>
+<div id="footer">
+	<div class="container clearfix">
+		<div class="copyright">KeePi © <a href="http://www.stephane-m.fr/">Stéphane Mombuleau</a> - 2014</div>
+		<div id="back_top"><a class="button" title="" data-slide="1"></a></div>
+	</div>
+</div>
+</body>
+</html>
